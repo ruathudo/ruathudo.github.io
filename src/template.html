@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -76,14 +65,37 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                I have been working on ML/DL field for 3 years. My interest is on natural language processing.
+                <br/>
+                I also have experience at tabular data ML problem and image processing. 
+                <br/>
+                Below are some applications I have done.
               </p>
+             
+              <ul class="text-left h4">
+                <li>Recommender System</li>
+                <li>Document Similarity</li>
+                <li>Image Processing</li>
+                <li>Time Series Analysis</li>
+                <li>Sentiment Analysis</li>
+                <li>Text Generation</li>
+                <li>Image Generation</li>
+                <li>General Classification</li>
+                <li>Synthetic Data Generation</li>
+                <li>Machine Translation</li>
+              </ul>
+           
+
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I can also an end to end machine learning pipeline on cloud service like AWS.
+                <br/>
+                My current stack: Python, Pytorch, Sklearn, Pandas, Django, Flask, React, Fedora.
+                <br/>
+                Finally, I love to do research, code up, write down, submit paper and never stop learning.
               </p>
+
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="./assets/resume.pdf">
                   View Resume
                 </a>
               </span>
@@ -104,14 +116,13 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">VIP/Churn Prediction</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    The project was part of my work at previous company. The idea is to detect whether a user is VIP or churn user. <br>
+                    The given data is the monitored user's action on the site like clicks, login time, money they spent, etc. <br>
+                    VIP user are defined on spending threshold. Churn users are defined on how long have they not login to the site. <br>
+                    The point is the predict an user type in the future based on the current behaviors. <br>
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
@@ -138,14 +149,49 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Similar Articles Recommendation</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This project is also from my previous company. Interesting is that the customer is my university. <br>
+                    The idea is to recommend articles have the same semantic content for a given article. <br>
+                    Everyday, the pipeline will update new data and auto training as well as predicting the new results. <br>
+                    The model and pipeline had been developed by me. We support three languages: English, Finnish and Swedish. <br>
+                    The site is still runing strong and you can see the real demo by clicking the button below.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://www2.helsinki.fi/en/news/news-and-press-releases">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Similar Products Recommendation</h3>
+                <div>
+                  <p class="mb-4">
+                    The idea is very similar to the article recommendation above, however, this model is not only for text. <br>
+                    The product data includes text, images and categories format. This means a hybrid model is needed to solve this problem. <br>
+                    My proposed model is able to recieve these data as input and allow to adjust the weight of each data type. <br>
+                    For example, if you believe your product image is more reliable source than text, we can set the weight for image higher. <br>
+                    Futher more, the pipeline also works automatically without tuning. <br>
+                    This project is suitable for retail customers.
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
@@ -172,14 +218,115 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">OCR Post-correction</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This project is for my publication (paper and source code bellow). <br>
+                    Historical Finnish text corpus has many OCR errors due to the image quality as well as the old form of words. <br>
+                    Further more, Finnish is extremely rich morphology language when one word can have many variant or be a combound of different words. <br>
+                    We proposed a totally unsupervised learning method using Transformer and contextual data to solve the problem. <br>
+                    It is similar to fix spelling errors, but also normalize the ancient word to the modem word. <br>
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://arxiv.org/abs/2011.03502">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/ruathudo/post-ocr-correction">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">News Trending Detection</h3>
+                <div>
+                  <p class="mb-4">
+                    This is my another publication (still under reviewing). <br>
+                    News in the timeline usually contains valuable information like special event or changing topic. <br>
+                    For example, the changing in the article about war or relious (increase or decrease) or sport event (spike up). <br>
+                    The idea is to detect if a given corpus in the timeline has some special pattern and when the pattern starts and ends. <br>
+                    To be able to do that, we need anotated datasets. However, this kind of datasets are not available and very time consuming to do manually. <br>
+                    We propose a synthetic data generator tool and evaluation framework to tackle this task. More detail about the paper will be updated soon.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Auto Music Composition</h3>
+                <div>
+                  <p class="mb-4">
+                    This is part of my master thesis. <br>
+                    The idea is not to generate the whole song by AI, but use AI as an assistant tool for human to compose music. <br>
+                    The data used is symbolic pop music collected in midi format. <br>
+                    Symbolic music has very similar characteristic like language. <br>
+                    So, I propose different language model like BERT and TransformerXL to solve the problem. <br>
+                    The final tool will be able to do 3 tasks: generate new piece from previous music pieces, generate harmony for given melody, and fill in blank notes.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Creative Chat bot</h3>
+                <div>
+                  <p class="mb-4">
+                    This is my hobby project. <br>
+                    Coming soon!
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
@@ -230,28 +377,21 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a href="#!" target="_blank">
+          <a href="https://twitter.com/ruathudo" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
+          <a href="https://www.linkedin.com/in/quan-duong-1a2247a9/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a href="#!" target="_blank">
+          <a href="https://github.com/ruathudo" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr />
 
-        <!-- If you give me some credit, will be huge for me :) -->
         <p class="footer__text">
-          © 2021 - Template developed by
-          <a href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
+          © 2021 - Quan Duong portfolio
         </p>
 
       </div>
